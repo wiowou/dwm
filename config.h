@@ -30,6 +30,7 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       0,            0,           -1 },
 //	{ "Eclipse",  NULL,       NULL,       0,            1,           -1 },
+	{ "Tor Browser", NULL,    NULL,       0,            1,           -1 },
 	{ "Feh",      NULL,       NULL,       0,            1,           -1 },
 };
 
