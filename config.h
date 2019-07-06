@@ -67,6 +67,7 @@ static const char *termcmd[]  = { "urxvt-dir", NULL };
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_Menu,   spawn,          {.v = dmenucmd } },
+	{ MODKEY,                       XK_F12,    spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY|ShiftMask,             XK_j,      focusstack,     {.i = +1 } },
